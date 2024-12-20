@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        #backToTop:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Discover my work, skills, and experience.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I am [Your Name], a passionate [Your Profession/Field]. I specialize in [Your Specialization] and
+                love to create impactful solutions.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at <a
+                    href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+            <p>You can also connect with me on <a href="#">LinkedIn</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+
+    <button id="backToTop">Back to Top</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
